@@ -37,6 +37,13 @@ export default function ProjectInfo({ project, onClose }: ProjectInfoProps) {
           <span className="text-xs px-2 py-1 bg-primary/10 text-primary rounded">{project.status}</span>
           <span className="text-xs px-2 py-1 bg-muted text-muted-foreground rounded">v6</span>
         </div>
+         <div className="flex gap-3 mt-2">
+          <span className="text-xs px-2 py-1 bg-primary/10 text-primary rounded">Funded Rev:1000</span>
+          <span className="text-xs px-2 py-1 bg-primary/10 text-primary rounded">Funded Cost:1000</span>
+          <span className="text-xs px-2 py-1 bg-primary/10 text-primary rounded">Revenue:1000</span>
+          <span className="text-xs px-2 py-1 bg-primary/10 text-primary rounded">Backlog:1000</span>
+           
+        </div>
       </div>
     </div>
   )
